@@ -1,0 +1,34 @@
+.sidebar {
+  /* margin: -6px !important; */
+  box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.25) !important;
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.customMenu :global(.ant-menu-item) {
+  padding: 12px !important;
+  position: relative !important;
+}
+
+.customMenu :global(.ant-menu-item-selected) {
+  background-color: #f3f4f8 !important;
+}
+
+.customMenu :global(.ant-menu-item-selected::after) {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 16px !important;
+  background-color: #f47920 !important; /* Orange color */
+}
+
+.customMenu :global(.ant-menu-item-selected h4) {
+  color: #13162a !important;
+}
+
+.customMenu :global(.ant-menu-item-selected svg) {
+  color: #13162a !important;
+}

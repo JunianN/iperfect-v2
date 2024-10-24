@@ -1,0 +1,105 @@
+.boldDatePicker :global(.ant-picker-input > input) {
+  font-weight: 600 !important;
+}
+
+.customTable :global(.ant-table-thead > tr > th) {
+  background-color: #e6e6e6 !important;
+  text-align: center !important;
+  font-size: 20.16px; /* Adjust this value to change the font size */
+  font-weight: 600; /* Optional: change the font weight */
+}
+
+/* .customTable :global(.ant-table-thead > tr > th::before) {
+    display: none !important;
+    } */
+
+.customTable :global(.ant-table-tbody > tr > td) {
+  text-align: center !important;
+}
+/* 
+.customTable :global(.ant-table-cell) {
+  padding: 16px 8px !important;
+} */
+
+.progressWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressWrapper :global(.ant-progress) {
+  width: 175px; /* Adjust this value as needed */
+}
+
+.progressWrapper :global(.ant-progress-outer) {
+  width: 100% !important;
+}
+
+.progressWrapper :global(.ant-progress-inner) {
+  width: 100% !important;
+}
+
+.progressWrapper :global(.ant-progress-text) {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-left: 6px; /* Adds some space between the bar and the text */
+  flex-shrink: 0; /* Prevents the text from shrinking */
+}
+
+.lastModifiedWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px; /* Adjust this value to control space between avatar and date */
+}
+
+.lastModifiedDate {
+  font-size: 20.16px;
+  color: #333; /* Adjust color as needed */
+}
+
+.unavailableRow {
+  background-color: #eeeff1; /* Light gray background for unavailable rows */
+}
+
+/* Optional: Add hover effect for unavailable rows */
+.unavailableRow:hover td {
+  background-color: #e8e8ed !important;
+}
+
+/* If you want to ensure the table cell itself is also flex-centered */
+/* :global(.ant-table-cell-align-center) {
+  display: flex !important;
+  justify-content: center;
+} */
+
+.dailyReportSection {
+  margin-top: 44px;
+}
+
+.dailyReportHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dailyReportTitle {
+  margin: 0 !important;
+}
+
+.messageRectangle {
+  background-color: #eeeff1;
+  border-radius: 8px;
+  /* padding: 16px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+}
+
+.dailyReportMessage {
+  color: #b3b5bd;
+  font-size: 20.16px;
+  font-weight: 400;
+}
